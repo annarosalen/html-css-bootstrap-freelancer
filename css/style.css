@@ -1,0 +1,22 @@
+/* regole di debug */
+[class*="col-"]{
+  background-color: green;
+  min-height: 100px;
+  border: solid black 1px;
+}
+
+/****************** intestazione******** */
+
+#jumbotron{
+  background-color: lightgreen;
+  /* debug */
+  min-height: 300px;
+}
+
+#sez2{
+  background-color: lightblue;
+}
+
+footer{
+  background-color: grey;
+}
