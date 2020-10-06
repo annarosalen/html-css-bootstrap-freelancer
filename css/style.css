@@ -42,7 +42,7 @@
   text-align: center;
 }
 
-#portfolio h2{
+.titoli-sezioni h2{
   font-size: 40px;
 }
 .outer-line{
@@ -55,16 +55,38 @@
   padding:10px;
 }
 
-
-
 .img-portfolio img{
   max-height: 250px;
   border-radius: 20px;
 }
 
+/* *************sezione about ***************+*/
 #sez2{
-  background-color: lightblue;
+  background-color: #1abc9c;
+  text-align: center;
 }
+
+.testo-about{
+  padding: 50px;
+  line-height: 30px;
+
+}
+.testo-about p{
+  text-align: left;
+}
+
+
+/* **********sezione contact************** */
+
+.form-group{
+  width: 100%;
+}
+
+
+
+
+
+
 
 footer{
   background-color: grey;
