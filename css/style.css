@@ -1,16 +1,65 @@
 /* regole di debug */
 [class*="col-"]{
-  /* background-color: green; */
   min-height: 100px;
   border: solid black 1px;
 }
 
+/* regole generali */
+.text-white{
+  color: white !important;
+}
+
 /****************** intestazione******** */
 
-#jumbotron{
-  /* background-color: lightgreen; */
+
+
+.navbar{
+  margin-bottom: 0;
+}
+
+#jumbo{
+  background-color: #1abc9c;
   /* debug */
   min-height: 300px;
+}
+
+.jumbotron{
+  background-color: #1abc9c;
+  text-align: center;
+}
+
+.jumbotron h1{
+  font-weight: 400px !important;
+}
+
+.jumbotron img{
+  max-height: 200px;
+}
+
+/**************** parte centrale************ */
+
+#portfolio{
+  text-align: center;
+}
+
+#portfolio h2{
+  font-size: 40px;
+}
+.outer-line{
+  border-bottom: solid black 2px;
+  width: 90px;
+}
+
+.img-portfolio {
+  text-align: center;
+  padding:10px;
+}
+
+
+
+.img-portfolio img{
+  max-height: 250px;
+  border-radius: 20px;
 }
 
 #sez2{
